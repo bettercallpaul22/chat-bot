@@ -7,11 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "build": "tsc --noEmitOnError",
-    "start": "node build/index.js",
-    "dev": "nodemon",
-    "postinstall": "tsc",
-    "test": "node test.js"
+    "start": "nodemon"
   },
   "dependencies": {
     "@types/express": "^4.17.21",
